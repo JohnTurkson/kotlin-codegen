@@ -1,6 +1,6 @@
 plugins {
-    id("com.johnturkson.kotlin")
-    id("com.johnturkson.publishing")
+    id("com.johnturkson.kotlin") apply false
+    id("com.johnturkson.publishing") apply false
 }
 
 group = "com.johnturkson.kotlin.codegen"

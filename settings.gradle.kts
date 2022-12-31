@@ -38,3 +38,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "kotlin-codegen"
+include(":core")
+include(":dsl")
